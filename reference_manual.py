@@ -7,6 +7,7 @@ def generate_reference_manual():
         reference_lines.append(f"{pair_number:2} -> {major:<6} | {minor}")
     return "\n".join(reference_lines)
 
+//YAGNI violation
 def print_reference_manual():
     print("Color Code Reference Manual:")
     print("-" * 32)
